@@ -28,8 +28,8 @@ int main()
         cout << pt[i];
     }
     cout << endl;
-    //char* ptr2 = NULL;
-    //cout << "ptr2: " << *ptr2 << endl;  //null pointer dereference
+    char* ptr2 = NULL;
+    cout << "ptr2: " << *ptr2 << endl;  //null pointer dereference
     char del[] = "bbb";
     delete& del;    //deleting non dynamically allocated memory
     char* d = new char[3];
